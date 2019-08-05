@@ -1,0 +1,28 @@
+<h1>Billet simple pour l'Alaska</h1><?php
+
+while($donnees = $readArticle->fetch()){ ?>
+<div class="accordion" id="accordionExample">
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse"
+                    data-target="#collapse<?php echo($donnees['id']);?>" aria-expanded="true"
+                    aria-controls="collapse<?php echo($donnees['id']);?>">
+                    Chapitre <?php echo($donnees['chapter']."&nbsp".$donnees['title']);?> créer le
+                    <?php echo($donnees['date']);?><form action="" method="POST">
+                        <input type="hidden" name="delete" value="<?php echo($donnees['id']);?>">
+                        <input type="submit" value="supp"> </form>
+                    <form action="" method="POST">
+                        <input type="hidden" name="update" value="<?php echo($donnees['id']);?>">
+                        <input type="submit" value="update"> </form>
+                </button> </h2>
+        </div>
+        <div id="collapse<?php echo($donnees['id']);?>" class="collapse" aria-labelledby="headingOne"
+            data-parent="#accordionExample">
+            <div class="card card-body">
+                <!--card-body--> contenu du chapitre <?php echo($donnees['chapter']);?>
+            </div>
+        </div>
+    </div>
+</div>
+<?php }?>
