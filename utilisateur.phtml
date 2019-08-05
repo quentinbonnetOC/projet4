@@ -44,7 +44,7 @@ while($donnees = $readArticle->fetch()){ ?>
                                         <input type="email" name="email"><br>
                                         <label for="commentaire">Commentaire : </label>
                                         <textarea name="commentaire" ></textarea>
-                                        <input type="hidden" name="envoyer" value="true">
+                                        <input type="hidden" name="id" value="<?php echo($donnees['id']);?>">
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -54,6 +54,10 @@ while($donnees = $readArticle->fetch()){ ?>
                             </div>
                         </div>
                     </div>
+                    <!---->
+                </div>
+                <div>
+                    <!--read comments-->
                 </div>
             </div>
         </div>
