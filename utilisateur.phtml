@@ -1,0 +1,62 @@
+<h1>Billet simple pour l'Alaska</h1><?php
+while($donnees = $readArticle->fetch()){ ?>
+<div class="accordion" id="accordionExample">
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse"
+                data-target="#collapse<?php echo($donnees['id']);?>" aria-expanded="false"
+                aria-controls="collapse<?php echo($donnees['id']);?>">
+                Chapitre <?php echo($donnees['chapter']."&nbsp".$donnees['title']);?> créer le
+                <?php echo($donnees['date']);?>
+            </button>
+            </h2>
+        </div>
+        <div id="collapse<?php echo($donnees['id']);?>" class="collapse" aria-labelledby="headingOne"
+            data-parent="#accordionExample">
+            <div class="card card-body">
+                <div>
+                    <!--card-body--> contenu du chapitre <?php echo($donnees['chapter']);?>
+                </div>
+                <div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                        Commentaire
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalCenterTitle">Laissez un commentaire</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form action="" method="post">
+                                        <label for="nom">Nom : </label>
+                                        <input type="text" name="nom" id="nom"><br>
+                                        <label for="prenom">Prénom : </label>
+                                        <input type="text" name="prenom"><br>
+                                        <label for="email">Email : </label>
+                                        <input type="email" name="email"><br>
+                                        <label for="commentaire">Commentaire : </label>
+                                        <textarea name="commentaire" ></textarea>
+                                        <input type="hidden" name="envoyer" value="true">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary" id="modal_envoyer" onclick="this.form.submit()">Envoyer</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<?php }?>
