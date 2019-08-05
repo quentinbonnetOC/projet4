@@ -1,0 +1,9 @@
+<?php
+$form = new Form($_POST);
+?><form action="#" method='POST'><?php
+echo $form->input('idt', 'text', '', '');
+echo $form->input('mdp', 'password', '', '');
+echo $form->input('envoi', 'hidden', '', 'envoyer');
+echo $form->submit('');
+?>
+</form>
