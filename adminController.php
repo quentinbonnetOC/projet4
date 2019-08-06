@@ -32,7 +32,7 @@ function createArticle(){
 }
 function readArticle(){
     if(isset($_SESSION['update']) && $_SESSION['update']  == true){
-        updateArticleTraitement();
+        updateArticle();
     }else{
         //delete
         if(!empty($_POST['delete'])){  
@@ -44,7 +44,7 @@ function readArticle(){
             //update
             require('../app/view/update.phtml');   
             $_SESSION['update'] = true;
-            updateArticleTraitement();
+            updateArticle();
             ///update
         }else{
             $class = new Admin;
@@ -53,7 +53,7 @@ function readArticle(){
         }       
     } 
 }
-function updateArticleTraitement(){
+function updateArticle(){
     if(isset($_POST['envoyeur'])){
         $chapter = $_POST['chapter'];
         $title = $_POST['title'];
