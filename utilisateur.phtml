@@ -1,6 +1,6 @@
 <h1>Billet simple pour l'Alaska</h1><?php
 while($test = $readComments->fetch()){
-    var_dump($test);
+    var_dump($test['article_id']);
 }   
 while($donnees = $readArticle->fetch()){ ?>
 <div class="accordion" id="accordionExample">
@@ -62,13 +62,12 @@ while($donnees = $readArticle->fetch()){ ?>
                 <div>
                     <!--read comments-->
                     <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#readCommentModal" id="readComment">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#readCommentModal<?php echo($donnees['id']);?>">
                         Lire les commentaires
                         </button>
                     </form>
-
                     <!-- Modal -->
-                    <div class="modal fade" id="readCommentModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal fade" id="readCommentModal<?php echo($donnees['id']);?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                         <div class="modal-header">
