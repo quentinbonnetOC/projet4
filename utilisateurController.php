@@ -1,14 +1,15 @@
 <?php
 class UtilisateurController{
     public function readArticle(){
-        $classi = new Commentaire();
-        $readArticle = $classi->readArticle();
-        require('../app/view/utilisateur.phtml');
+        $class = new Commentaire();
+        $readArticle = $class->readArticle();
         if(isset($_POST['article_id_createComment'])){
             $this->createComment();
         }
-        $this->readComments();
+        $class = new Commentaire();
+        $readComments = $class->readComments();
         
+        require('../app/view/utilisateur.phtml');  
     }
     private function createComment(){
         $nom = isset($_POST['nom'])? $_POST['nom']:null;
@@ -18,11 +19,6 @@ class UtilisateurController{
         $article_id = isset($_POST['id'])? $_POST['id'] : null;
         $class = new Commentaire();
         $createComment = $class->createComment($article_id, $nom, $prenom, $email, $commentaire);
-    }
-    private function readComments(){
-        $classe = new Commentaire();
-        $readComments = $classe->readComments();
-        require('../app/view/utilisateur.phtml');
     }
 }
 ?>  
