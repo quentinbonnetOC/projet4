@@ -35,7 +35,7 @@
         }
     }else{
         $utilisateurController = new UtilisateurController();
-        $utilisateurController->readArticleUtilisateur();
+        $utilisateurController->readArticle();
     }
     ?>
     <script src="https://cdn.tiny.cloud/1/lty2eut9zmtirhy1iffn4ovfk8xl0728z51nk7oewdd00nw/tinymce/5/tinymce.min.js">
