@@ -21,11 +21,10 @@ function authentification(){
 }
 function createArticle(){   
     if(isset($_POST['envoie']) && $_POST['envoie']=='envoyer'){
-        var_dump($_POST);
         $class = new Admin();
         $chapter = $_POST['chapter'];
         $title = $_POST['title'];        
-        $date = "toto";
+        $date = date('d/m/Y');
         $createArticle = $class->createArticle($chapter, $title, $date);       
     }
     require('../app/view/createArticle.phtml');
