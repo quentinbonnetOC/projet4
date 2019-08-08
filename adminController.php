@@ -21,18 +21,17 @@ function authentification(){
 }
 function createArticle(){   
     if(isset($_POST['envoie']) && $_POST['envoie']=='envoyer'){
-        var_dump($_POST);
         $class = new Admin();
         $chapter = $_POST['chapter'];
         $title = $_POST['title'];        
-        $date = "toto";
+        $date = date('d/m/Y');
         $createArticle = $class->createArticle($chapter, $title, $date);       
     }
     require('../app/view/createArticle.phtml');
 }
 function readArticle(){
     if(isset($_SESSION['update']) && $_SESSION['update']  == true){
-        updateArticleTraitement();
+        updateArticle();
     }else{
         //delete
         if(!empty($_POST['delete'])){  
@@ -44,7 +43,7 @@ function readArticle(){
             //update
             require('../app/view/update.phtml');   
             $_SESSION['update'] = true;
-            updateArticleTraitement();
+            updateArticle();
             ///update
         }else{
             $class = new Admin;
@@ -53,7 +52,7 @@ function readArticle(){
         }       
     } 
 }
-function updateArticleTraitement(){
+function updateArticle(){
     if(isset($_POST['envoyeur'])){
         $chapter = $_POST['chapter'];
         $title = $_POST['title'];
