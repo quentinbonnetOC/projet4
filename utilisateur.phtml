@@ -1,7 +1,5 @@
 <h1>Billet simple pour l'Alaska</h1><?php
-while($test = $readComments->fetch()){
-    var_dump($test['article_id']);
-}   
+$array = $readComments->fetchAll();
 while($donnees = $readArticle->fetch()){ ?>
 <div class="accordion" id="accordionExample">
     <div class="card">
@@ -23,12 +21,12 @@ while($donnees = $readArticle->fetch()){ ?>
                 </div>
                 <div>
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#writeComment">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#writeComment<?php echo($donnees['id']);?>">
                         Commentaire
                     </button>
 
                     <!-- Modal -->
-                    <div class="modal fade" id="writeComment" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade" id="writeComment<?php echo($donnees['id']);?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -77,7 +75,17 @@ while($donnees = $readArticle->fetch()){ ?>
                             </button>
                         </div>
                         <div class="modal-body">
-                            <?php echo($donnees['id']);?>
+                            <?php
+                            if(!empty($array)){
+                                foreach ($array as $f) {
+                                    if($f['article_id'] == $donnees['id']){
+                                        ?> <p>Commentaire de <?php echo($f['prenom']." ".$f['nom']);?> laissé le <?php echo($f['date']);?><br>
+                                        <?php echo($f['commentaire']);?></p><br><br><?php
+                                    } 
+                                };
+                            }else{ ?>
+                                <p>Aucun commentaire</p><?php
+                            } ?>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
