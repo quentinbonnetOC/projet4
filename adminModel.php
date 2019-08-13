@@ -13,9 +13,9 @@ class Admin{
     /**
      * @param object selection de tous les admins
      */
-    public function authentification($idt, $mdp){
+    public function authentification($idt){
         $db = $this->dbConnect();
-        $req = $db->query('SELECT * FROM admin WHERE idt = "'.$idt.'" AND mdp = "'.$mdp.'"');
+        $req = $db->query('SELECT * FROM admin WHERE idt = "'.$idt.'"');
         return $req;
     }
     public function createArticle($chapter, $title, $date){
@@ -37,6 +37,10 @@ class Admin{
         $db = $this->dbConnect();
         $req = $db->query('UPDATE `articles` SET chapter = "'.$chapter.'", title = "'.$title.'", date = "'.$date.'" WHERE id = "'.$id.'"');
         return $req;
-
+    }
+    public function signalementCommentAdmin(){
+        $db = $this->dbConnect();
+        $req = $db->query('SELECT * FROM `signalement`');
+        return $req;
     }
 }
