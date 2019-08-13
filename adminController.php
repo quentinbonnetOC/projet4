@@ -1,7 +1,7 @@
 <?php
 class AdminController{
     public function authentification(){
-        if($_SESSION['authentification'] == true){
+        if(isset($_SESSION['authentification'])){
             $this->readArticle();
         }else if(!isset($_POST['envoi'])){
             require('../app/view/authentification.phtml');
@@ -9,14 +9,14 @@ class AdminController{
             $class = new Admin();
             $idt = $_POST['idt'];
             $mdp = $_POST['mdp'];
-            $authentification  = $class->authentification($idt, $mdp);
-            
-            if($authentification->fetch()){
-                $_SESSION['authentification'] = true;
+            $authentification  = $class->authentification($idt);
+            if(password_verify($mdp, $authentification->fetch()['mdp'])){
                 $this->readArticle();
             }else{
                 echo "erreur d'identifiant ou de mot de passe";
             }
+            
+            
         }   
     }
     public function createArticle(){   
