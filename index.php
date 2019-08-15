@@ -1,5 +1,6 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -16,6 +17,13 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script src="https://kit.fontawesome.com/679ed7c089.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+    <script>$(document).ready( function () {
+        $('#myTable').DataTable();
+    } );
+    </script>
     <title>Document</title>
 </head>
 
@@ -27,9 +35,14 @@
     require('../app/controller/utilisateurController.php');
     if(isset($_GET['action'])){
         if($_GET['action'] == 'admin')/*'name of controller de la page d'acceuil*/{
-            readArticle();
+        $adminController = new AdminController();
+        $adminController->readArticle();
         }else if($_GET['action']== 'authentification')/*'name of controller2'*/{
-        authentification();
+        $adminController = new AdminController();
+        $adminController->authentification();
+        }else if($_GET['action']=='signalement'){
+            $adminController = new AdminController();
+            $adminController->signalementCommentAdmin();
         }else{
             echo 'Erreur';
         }
@@ -38,7 +51,8 @@
         $utilisateurController->readArticle();
     }
     ?>
-    <script src="https://cdn.tiny.cloud/1/lty2eut9zmtirhy1iffn4ovfk8xl0728z51nk7oewdd00nw/tinymce/5/tinymce.min.js">
+    <script src="https://cdn.tiny.cloud/1/lty2eut9zmtirhy1i1ffn4ovfk8xl0728z51nk7oewdd00nw/tinymce/5/tinymce.min.js">
+    
     </script>
     <script>
     tinymce.init({
