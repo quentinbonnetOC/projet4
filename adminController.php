@@ -14,18 +14,17 @@ class AdminController{
                 $this->readArticle();
             }else{
                 echo "erreur d'identifiant ou de mot de passe";
-            }
-            
-            
+            } 
         }   
     }
     public function createArticle(){   
         if(isset($_POST['envoie']) && $_POST['envoie']=='envoyer'){
-            $class = new Admin();
+            $class = new Article();
             $chapter = $_POST['chapter'];
+            $contenu = $_POST['contenu'];
             $title = $_POST['title'];        
             $date = date('d/m/Y');
-            $createArticle = $class->createArticle($chapter, $title, $date);       
+            $createArticle = $class->createArticle($chapter, $title, $contenu, $date);       
         }
         require('../app/view/createArticle.phtml');
     }
@@ -36,7 +35,7 @@ class AdminController{
             //delete
             if(!empty($_POST['delete'])){  
                 $id = $_POST['delete'];
-                $testDelete = new Admin;
+                $testDelete = new Admin();
                 $testDelete->deleteArticle($id);
             ///delete
             }else if(!empty($_POST['update'])) {
@@ -46,7 +45,7 @@ class AdminController{
                 $this->updateArticle();
                 ///update
             }else{
-                $class = new Admin();
+                $class = new Article();
                 $readArticle = $class->readArticle();
                 require('../app/view/backoffice.phtml');
             }       
@@ -56,17 +55,31 @@ class AdminController{
         if(isset($_POST['envoyeur'])){
             $chapter = $_POST['chapter'];
             $title = $_POST['title'];
+            $contenu = $_POST['contenu'];
             $date = $_POST['date'];
             $id = $_POST['envoyeur'];
-            $testDelete = new Admin;
-            $testDelete->updateArticle($chapter, $title, $date, $id);
+            $testDelete = new Admin();
+            $testDelete->updateArticle($chapter, $title, $contenu, $date, $id);
             unset($_SESSION['update']);
         }  
     }
     public function signalementCommentAdmin(){
-        $class = new Admin();
+        $class = new Signalement();
         $signalementCommentAdmin = $class->signalementCommentAdmin();
+        $this->traitementCommentaireSignaler();
         require('../app/view/signalementComment.phtml');
     }
+    private function traitementCommentaireSignaler(){
+        $id = isset($_GET['id'])? $_GET['id'] : null;
+        $commentaire_id = isset($_GET['commentaire_id']) ? $_GET['commentaire_id'] : null;
+        $class = new Signalement();
+        if(isset($_GET['accepter'])&& $_GET['accepter']==true){
+            $accepterCommentaireSignaler = $class->accepterCommentaireSignaler($id);
+            header('Location: http://localhost/projet_4/public/?action=signalement');
+        }else if(isset($_GET['refuser']) && $_GET['refuser']==true){
+            $refuserCommentaireSignaler = $class->refuserCommentaireSignaler($id, $commentaire_id);
+            header('Location: http://localhost/projet_4/public/?action=signalement');
+        }
+    } 
 }
 ?>

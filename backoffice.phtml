@@ -1,5 +1,9 @@
-<h1>Billet simple pour l'Alaska</h1><?php
-
+<h1>Billet simple pour l'Alaska</h1>
+<form action="" method="get">
+    <input type="hidden" name="action" value="signalement">
+    <input type="submit" value="Signalement">
+    </form>
+<?php
 while($donnees = $readArticle->fetch()){ ?>
 <div class="accordion" id="accordionExample">
     <div class="card">
