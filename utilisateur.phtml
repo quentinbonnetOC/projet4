@@ -61,7 +61,7 @@ while($donnees = $readArticle->fetch()){ ?>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#readCommentModal<?php echo($donnees['id']);?>">
                         Lire les commentaires
                         </button>
-                    </form>
+                    
                     <!-- Modal -->
                     <div class="modal fade" id="readCommentModal<?php echo($donnees['id']);?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -79,17 +79,18 @@ while($donnees = $readArticle->fetch()){ ?>
                                     if($f['article_id'] == $donnees['id']){
                                         ?> <p>Commentaire de <?php echo($f['pseudo']);?> laissé le <?php echo($f['date']);?><br>
                                         <?php echo($f['commentaire']);?></p><br><br>
+                                        <!---Signaler commentaire-->
                                         <!-- Button trigger modal -->
-                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#signaler<?php echo($f['id']);?>">
                                             Signaler ce commentaire
                                         </button>
 
                                         <!-- Modal -->
-                                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal fade" id="signaler<?php echo($f['id']);?>" tabindex="-1" role="dialog" aria-labelledby="signaler" aria-hidden="true">
                                         <div class="modal-dialog modal-dialog-centered" role="document">
                                             <div class="modal-content">
                                             <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Signalement</h5>
+                                                <h5 class="modal-title" id="signaler">Signalement</h5>
                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                                 </button>
