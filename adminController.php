@@ -1,9 +1,7 @@
 <?php
 class AdminController{
     public function authentification(){
-        if(isset($_SESSION['authentification'])){
-            $this->readArticle();
-        }else if(!isset($_POST['envoi'])){
+        if(!isset($_POST['envoi'])){
             require('../app/view/authentification.phtml');
         }else if(isset($_POST['envoi'])){
             $class = new Admin();
@@ -11,6 +9,7 @@ class AdminController{
             $mdp = $_POST['mdp'];
             $authentification  = $class->authentification($idt);
             if(password_verify($mdp, $authentification->fetch()['mdp'])){
+                $_SESSION['authentification']=true;
                 $this->readArticle();
             }else{
                 echo "erreur d'identifiant ou de mot de passe";
@@ -29,45 +28,63 @@ class AdminController{
         require('../app/view/createArticle.phtml');
     }
     public function readArticle(){
-        if(isset($_SESSION['update']) && $_SESSION['update']  == true){
-            $this->updateArticle();
-        }else{
-            //delete
-            if(!empty($_POST['delete'])){  
-                $id = $_POST['delete'];
-                $testDelete = new Admin();
-                $testDelete->deleteArticle($id);
-            ///delete
-            }else if(!empty($_POST['update'])) {
-                //update
-                require('../app/view/update.phtml');   
-                $_SESSION['update'] = true;
+        if(isset($_SESSION['authentification']) && $_SESSION['authentification']==true){         
+            if(isset($_SESSION['update']) && $_SESSION['update']  == true){
                 $this->updateArticle();
-                ///update
+                unset($_SESSION['update']);
             }else{
-                $class = new Article();
-                $readArticle = $class->readArticle();
-                require('../app/view/backoffice.phtml');
-            }       
-        } 
+                //delete
+                if(!empty($_POST['delete'])){  
+                    $id = $_POST['delete'];
+                    $testDelete = new Article();
+                    $testDelete->deleteArticle($id);
+                ///delete
+                }else if(!empty($_POST['update'])) {
+                    //update
+                    require('../app/view/update.phtml');   
+                    $_SESSION['update'] = true;
+                    $this->updateArticle();
+                    ///update
+                }else{
+                    $class = new Article();
+                    $readArticle = $class->readArticle();
+                    require('../app/view/backoffice.phtml');
+                }      
+            }
+        }else{
+            /*si pas acces par authentification*/
+            ?><script>setTimeout(function(){
+                document.location.href="http://localhost/projet_4/public?action=authentification";
+            },0000);
+            alert("Veuillez vous identifiez");</script><?php
+        }
     }
     private function updateArticle(){
         if(isset($_POST['envoyeur'])){
             $chapter = $_POST['chapter'];
             $title = $_POST['title'];
             $contenu = $_POST['contenu'];
-            $date = $_POST['date'];
+            $date = date('d/m/Y');
             $id = $_POST['envoyeur'];
-            $testDelete = new Admin();
+            $testDelete = new Article();
             $testDelete->updateArticle($chapter, $title, $contenu, $date, $id);
             unset($_SESSION['update']);
         }  
     }
     public function signalementCommentAdmin(){
-        $class = new Signalement();
-        $signalementCommentAdmin = $class->signalementCommentAdmin();
-        $this->traitementCommentaireSignaler();
-        require('../app/view/signalementComment.phtml');
+        if(isset($_SESSION['authentification']) && $_SESSION['authentification']==true){
+            $class = new Signalement();
+            $signalementCommentAdmin = $class->signalementCommentAdmin();
+            $this->traitementCommentaireSignaler();
+            require('../app/view/signalementComment.phtml');
+        }else{
+            /*si pas acces par authentification*/
+            ?><script>setTimeout(function(){
+                document.location.href="http://localhost/projet_4/public?action=authentification";
+            },0000);
+            alert("Veuillez vous identifiez");</script><?php
+
+        }
     }
     private function traitementCommentaireSignaler(){
         $id = isset($_GET['id'])? $_GET['id'] : null;
@@ -75,10 +92,16 @@ class AdminController{
         $class = new Signalement();
         if(isset($_GET['accepter'])&& $_GET['accepter']==true){
             $accepterCommentaireSignaler = $class->accepterCommentaireSignaler($id);
-            header('Location: http://localhost/projet_4/public/?action=signalement');
+            ?><script>setTimeout(function(){
+                document.location.href="http://localhost/projet_4/public?action=signalement";
+            },0000);
+            alert("Le commentaire a bien été accepté");</script><?php
         }else if(isset($_GET['refuser']) && $_GET['refuser']==true){
             $refuserCommentaireSignaler = $class->refuserCommentaireSignaler($id, $commentaire_id);
-            header('Location: http://localhost/projet_4/public/?action=signalement');
+            ?><script>setTimeout(function(){
+                document.location.href="http://localhost/projet_4/public?action=signalement";
+            },0000);
+            alert("Le commentaire a bien été refusé");</script><?php
         }
     } 
 }
