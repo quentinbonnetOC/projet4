@@ -46,7 +46,7 @@ while($donnees = $readArticle->fetch()){ ?>
                                         <input type="hidden" name="article_id_createComment" value="<?php echo($donnees['id']);?>">
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
                                     <button type="button" class="btn btn-primary" id="modal_envoyer" onclick="this.form.submit()">Envoyer</button>
                                     </form>
                                 </div>
@@ -75,8 +75,10 @@ while($donnees = $readArticle->fetch()){ ?>
                         <div class="modal-body">
                             <?php
                             if(!empty($array)){
+                                $verification_commentaire = "";
                                 foreach ($array as $f) {
-                                    if($f['article_id'] == $donnees['id']){
+                                    if($donnees['id']== $f['article_id']){
+                                        $verification_commentaire = true;
                                         ?> <p>Commentaire de <?php echo($f['pseudo']);?> laissé le <?php echo($f['date']);?><br>
                                         <?php echo($f['commentaire']);?></p><br><br>
                                         <!---Signaler commentaire-->
@@ -87,48 +89,47 @@ while($donnees = $readArticle->fetch()){ ?>
 
                                         <!-- Modal -->
                                         <div class="modal fade" id="signaler<?php echo($f['id']);?>" tabindex="-1" role="dialog" aria-labelledby="signaler" aria-hidden="true">
-                                        <div class="modal-dialog modal-dialog-centered" role="document">
-                                            <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="signaler">Signalement</h5>
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                                </button>
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="signaler">Signalement</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <form action="" method="post">
+                                                            <select name="motif">
+                                                                <option value="">Motif du signalement</option>
+                                                                <option value="harcelement">harcelement</option>
+                                                                <option value="propos injurieux">propos injurieux</option>
+                                                                <option value="menace">menace</option>
+                                                            </select>
+                                                            <input type="hidden" name="signaler">
+                                                            <input type="hidden" name="commentaire_id" value="<?php echo($f['id']);?>">
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                                                        <button type="button" class="btn btn-primary" onclick="this.form.submit()">Signaler</button>
+                                                        </form>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="modal-body">
-                                                <form action="" method="post">
-                                                    <select name="motif">
-                                                        <option value="">Motif du signalement</option>
-                                                        <option value="harcelement">harcelement</option>
-                                                        <option value="propos injurieux">propos injurieux</option>
-                                                        <option value="menace">menace</option>
-                                                    </select>
-                                                    <input type="hidden" name="signaler">
-                                                    <input type="hidden" name="commentaire_id" value="<?php echo($f['id']);?>">
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                <button type="button" class="btn btn-primary" onclick="this.form.submit()">Save changes</button>
-                                                </form>
-
-                                            </div>
-                                            </div>
-                                        </div>
-                                        </div>
-                                        
+                                        </div>  
                                         <?php                                        
-                                    } 
+                                    }
                                 };
-                            }else{ ?>
-                                <p>Aucun commentaire</p><?php
-                            } ?>
+                            }
+                            if($verification_commentaire != true){
+                                echo "Il n'y a pas de commentaire";
+                            }?>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
                         </div>
                     </div>
-                    </div>
+                </div>
+            </div>
 
                 </div>
             </div>
