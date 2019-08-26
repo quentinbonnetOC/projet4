@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+.col-3{
+    border: 5px solid;
+    margin-left: 5%;
+    top: 70px;
+    max-width: 15%;
+
+}
+.col-9{
+    max-width: 75%;
+    top: 70px;
+    margin-left: 5%;
+}
+.nav-link{
+    font-size: 25px;
+}
