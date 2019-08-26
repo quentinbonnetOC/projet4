@@ -18,4 +18,9 @@ class Admin{
         $req = $db->query('SELECT * FROM admin WHERE idt = "'.$idt.'"');
         return $req;
     }
+    public function forgetMdp($email){
+        $db = $this->dbConnect();
+        $req = $db->query('SELECT * FROM admin WHERE email = "'.$email.'"');
+        return $req;
+    }
 }
