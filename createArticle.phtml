@@ -1,0 +1,12 @@
+<?php $form = new Form($_POST); ?>
+<form action="" method="POST">
+    <label>Titre</label>
+    <?php echo $form->input("title", "text", "tile_art", "" ); ?>
+    <label>Chapitre</label>
+    <?php echo $form->input("chapter", "text", "chapter_art", "" ); ?>
+    <label>Date</label>
+    <?php echo $form->input("date", "text", "date", "" ); ?>
+    <textarea name="contenu">Next, get a free Tiny Cloud API key!</textarea> 
+    <?php echo $form->input('envoie', 'hidden', '', 'envoyer');
+    echo $form->submit(''); ?>
+</form>

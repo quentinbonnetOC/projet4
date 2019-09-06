@@ -1,0 +1,16 @@
+<table id="myTable" class="display stripe cell-border hover">
+    <thead>
+        <th class="dt-head-center">Commentaire</th>
+        <th class="dt-head-center">Motif</th>
+        <th class="dt-head-center">Accepter/Refuser</th>
+    </thead>
+    <tbody>
+        <?php while($donnees = $signalementCommentAdmin->fetch()){?>
+            <tr>
+                <td class="dt-body-center"><?php echo($donnees['commentaire']);?></td>
+                <td class="dt-body-center"><?php echo($donnees['motif']);?></td>
+                <td class="dt-body-center"><button><a href="http://localhost/projet_4/public/?action=signalement&accepter=true&id=<?php echo($donnees['id']);?>"><i class="fas fa-check"></i></a></button><button><a href="http://localhost/projet_4/public/?action=signalement&refuser=true&id=<?php echo($donnees['id']);?>&commentaire_id=<?php echo($donnees[1]);?>"><i class="fas fa-times-circle"></i></a></button></td>
+            </tr>
+        <?php };?>       
+    </tbody>
+</table>
