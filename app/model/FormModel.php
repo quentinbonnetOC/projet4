@@ -25,5 +25,11 @@ class Form{
         return '<button id="'.$id.'" type="submit">Envoyer</button>'
         ;
     }
+    public function label($name){
+        return '<label for="'.$name.'">'.$name.'</label>';
+    }
+    public function checkbox($name, $id, $value, $checked){
+        return '<input id="'.$id.'" type="checkbox" name="'.$name.'" value="'.$value.'" '.$checked.'>';
+    }
 }
 ?>

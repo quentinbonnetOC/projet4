@@ -1,138 +1,153 @@
+<?php
+if(isset($_GET['confirm_comment'])){?>
+<script>alert("Votre commentaire a bien été enregistré");</script>
+<?php
+}else if(isset($_GET['confirm_signalement'])){?>
+<script>alert("Votre signalement a bien été enregistré");</script>
+<?php
+}
+?>
+<link rel="stylesheet" href="../public/css/utilisateur.css">
 <h1>Billet simple pour l'Alaska</h1><?php
 $array = $readComments->fetchAll();
-while($donnees = $readArticle->fetch()){ ?>
-<div class="accordion" id="accordionExample">
-    <div class="card">
-        <div class="card-header" id="headingOne">
-            <h2 class="mb-0">
-            <button class="btn btn-link" type="button" data-toggle="collapse"
-                data-target="#collapse<?php echo($donnees['id']);?>" aria-expanded="false"
-                aria-controls="collapse<?php echo($donnees['id']);?>">
-                Chapitre <?php echo($donnees['chapter']."&nbsp".$donnees['title']);?> créer le
-                <?php echo($donnees['date']);?>
-            </button>
-            </h2>
+$test = $readArticle->fetchAll();?>
+<div class="row">
+    <div class="col-3">
+        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Accueil</a>
+            <?php foreach($test as $tata){ ?>
+                <a class="nav-link" id="v-pills-chapter-tab<?php echo($tata['id']);?>" data-toggle="pill" href="#v-pills-chapter<?php echo($tata['id']);?>" role="tab" aria-controls="v-pills-chapter" aria-selected="false">Chapitre <?php echo($tata['chapter']);?></a>
+            <?php } ?>
         </div>
-        <div id="collapse<?php echo($donnees['id']);?>" class="collapse" aria-labelledby="headingOne"
-            data-parent="#accordionExample">
-            <div class="card card-body">
-                <div>
-                    <!--card-body--> contenu du chapitre <?php echo($donnees['chapter']);?>
-                </div>
-                <div>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#writeComment<?php echo($donnees['id']);?>">
-                        Commentaire
-                    </button>
+    </div>
+    <div class="col-9">
+        <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">Bonjour, je m'appelle Jean FORTEROCHE, je suis écrivain depuis 10 ans et je souhaite vous faire découvrir mon nouveau livre intitulé "Billet simple pour l'Alaska".<br>
+            Pour la première fois, j'ai décidé de vous le faire partager sur un site.<br>
+            J'espère que ce nouveau format vous satisfera. J'attends avec impatience vos commentaires tant sur le livre en lui même, que sur ce nouveau format.<br><br>
+            Vous êtes sur le point de découvrir l'histoire de notre héro, Joseph. Cela vous permettra de savoir d'où il vient et comment il est devenu tel qu'il est aujourd'hui.<br>
+            Joseph est un jeune homme orphelin et il a du surmonter beaucoup d'épreuves afin de sortir dans la vie et de peut-être réalisé son plus grand rêve, travailler en Alaska.<br>
+            
+            </div>
+            <?php foreach($test as $tata){ ?>            
+                <div class="tab-pane fade" id="v-pills-chapter<?php echo($tata['id']);?>" role="tabpanel" aria-labelledby="v-pills-chapter-tab<?php echo($tata['id']);?>">
+                    <h2>Chapitre <?php echo($tata['chapter']);?></h2>   
+                    <p>Créé le <?php echo($tata['date']);?></p>
+                    <p><?php echo($tata['contenu']);?></p>
+                    <div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#writeComment<?php echo($tata['id']);?>">
+                            Commentaire
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="writeComment<?php echo($tata['id']);?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalCenterTitle">Laissez un commentaire</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="" method="post">
+                                            <label for="pseudo">pseudo : </label>
+                                            <input type="text" name="pseudo" id="pseudo"><br>
+                                            <label for="email">Email : </label>
+                                            <input type="email" name="email"><br>
+                                            <label for="commentaire">Commentaire : </label>
+                                            <textarea name="commentaire" ></textarea>
+                                            <input type="hidden" name="article_id_createComment" value="<?php echo($tata['id']);?>">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                                        <button type="button" class="btn btn-primary" id="modal_envoyer" onclick="this.form.submit()">Envoyer</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!---->
+                    </div>
+                    <br>
+                    <div>
+                        <!--read comments-->
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#readCommentModal<?php echo($tata['id']);?>">
+                            Lire les commentaires
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="readCommentModal<?php echo($tata['id']);?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Commentaires</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <?php
+                                            $verification_commentaire = "";
+                                            foreach ($array as $f) {
+                                                if($tata['id']== $f['article_id']){
+                                                    $verification_commentaire = true;
+                                                    ?> <p>Commentaire de <?php echo($f['pseudo']);?> laissé le <?php echo($f['date']);?><br>
+                                                    <?php echo($f['commentaire']);?></p><br><br>
+                                                    <!---Signaler commentaire-->
+                                                    <!-- Button trigger modal -->
+                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#signaler<?php echo($f['id']);?>">
+                                                        Signaler ce commentaire
+                                                    </button>
 
-                    <!-- Modal -->
-                    <div class="modal fade" id="writeComment<?php echo($donnees['id']);?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalCenterTitle">Laissez un commentaire</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <form action="" method="post">
-                                        <label for="pseudo">pseudo : </label>
-                                        <input type="text" name="pseudo" id="pseudo"><br>
-                                        <label for="email">Email : </label>
-                                        <input type="email" name="email"><br>
-                                        <label for="commentaire">Commentaire : </label>
-                                        <textarea name="commentaire" ></textarea>
-                                        <input type="hidden" name="article_id_createComment" value="<?php echo($donnees['id']);?>">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary" id="modal_envoyer" onclick="this.form.submit()">Envoyer</button>
-                                    </form>
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="signaler<?php echo($f['id']);?>" tabindex="-1" role="dialog" aria-labelledby="signaler" aria-hidden="true">
+                                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title" id="signaler">Signalement</h5>
+                                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                        <span aria-hidden="true">&times;</span>
+                                                                    </button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <form action="" method="post">
+                                                                        <select name="motif">
+                                                                            <option value="">Motif du signalement</option>
+                                                                            <option value="harcelement">harcelement</option>
+                                                                            <option value="propos injurieux">propos injurieux</option>
+                                                                            <option value="menace">menace</option>
+                                                                        </select>
+                                                                        <input type="hidden" name="signaler">
+                                                                        <input type="hidden" name="commentaire_id" value="<?php echo($f['id']);?>">
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                                                                    <button type="button" class="btn btn-primary" onclick="this.form.submit()">Signaler</button>
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>  
+                                                    <?php                                        
+                                                }
+                                            };
+                                        
+                                        if($verification_commentaire != true){
+                                            echo "Il n'y a pas de commentaire";
+                                        }?>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!---->
-                </div>
-                <div>
-                    <!--read comments-->
-                    <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#readCommentModal<?php echo($donnees['id']);?>">
-                        Lire les commentaires
-                        </button>
                     
-                    <!-- Modal -->
-                    <div class="modal fade" id="readCommentModal<?php echo($donnees['id']);?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Commentaires</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <?php
-                            if(!empty($array)){
-                                foreach ($array as $f) {
-                                    if($f['article_id'] == $donnees['id']){
-                                        ?> <p>Commentaire de <?php echo($f['pseudo']);?> laissé le <?php echo($f['date']);?><br>
-                                        <?php echo($f['commentaire']);?></p><br><br>
-                                        <!---Signaler commentaire-->
-                                        <!-- Button trigger modal -->
-                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#signaler<?php echo($f['id']);?>">
-                                            Signaler ce commentaire
-                                        </button>
-
-                                        <!-- Modal -->
-                                        <div class="modal fade" id="signaler<?php echo($f['id']);?>" tabindex="-1" role="dialog" aria-labelledby="signaler" aria-hidden="true">
-                                        <div class="modal-dialog modal-dialog-centered" role="document">
-                                            <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="signaler">Signalement</h5>
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <form action="" method="post">
-                                                    <select name="motif">
-                                                        <option value="">Motif du signalement</option>
-                                                        <option value="harcelement">harcelement</option>
-                                                        <option value="propos injurieux">propos injurieux</option>
-                                                        <option value="menace">menace</option>
-                                                    </select>
-                                                    <input type="hidden" name="signaler">
-                                                    <input type="hidden" name="commentaire_id" value="<?php echo($f['id']);?>">
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                <button type="button" class="btn btn-primary" onclick="this.form.submit()">Save changes</button>
-                                                </form>
-
-                                            </div>
-                                            </div>
-                                        </div>
-                                        </div>
-                                        
-                                        <?php                                        
-                                    } 
-                                };
-                            }else{ ?>
-                                <p>Aucun commentaire</p><?php
-                            } ?>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-
                 </div>
-            </div>
+            <?php };?>
         </div>
     </div>
 </div>
-<?php }?>

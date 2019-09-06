@@ -8,7 +8,6 @@ class Signalement extends Admin{
      */
     public function signalementCommentAdmin(){
         $db = $this->dbConnect();
-        // $req = $db->query('SELECT * FROM `signalement`');
         $req = $db->query('SELECT * FROM `commentaire` INNER JOIN `signalement` ON commentaire_id = commentaire.id');
         return $req;
     }

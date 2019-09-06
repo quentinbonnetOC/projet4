@@ -60,10 +60,11 @@ class AdminController{
                         $chapter = $_POST['chapter'];
                         $title = $_POST['title'];
                         $contenu = $_POST['contenu'];
+                        $date = date('d/m/Y');
                         $id = $_POST['envoyeur'];
                         $class = new Article();
-                        $class->updateArticle($chapter, $title, $contenu, $id);
-                        header("Location: ?action=admin&updated=true");
+                        $class->updateArticle($chapter, $title, $contenu, $date, $id);
+                        header("Location: http://localhost/projet_4/public?action=admin&updated=true");
                     } 
                     require('../app/view/update.phtml');
 
@@ -88,7 +89,7 @@ class AdminController{
             
         }else{
             /*si pas acces par authentification*/
-            header("Location: ?action=authentification&msg=''");           
+            header("Location: http://localhost/projet_4/public?action=authentification&msg=''");           
         }
     }
     private function traitementCommentaireSignaler(){
@@ -97,10 +98,10 @@ class AdminController{
         $class = new Signalement();
         if(isset($_GET['accepter'])&& $_GET['accepter']==true){
             $accepterCommentaireSignaler = $class->accepterCommentaireSignaler($id);
-            header("Location: ?action=admin&commentaire_accept='true'");            
+            header("Location: http://localhost/projet_4/public?action=admin&commentaire_accept='true'");            
         }else if(isset($_GET['refuser']) && $_GET['refuser']==true){
             $refuserCommentaireSignaler = $class->refuserCommentaireSignaler($id, $commentaire_id);
-            header("Location: ?action=admin&commentaire_refuse='true'");
+            header("Location: http://localhost/projet_4/public?action=admin&commentaire_refuse='true'");
         }
     } 
     public function forgetMdp(){
@@ -118,7 +119,7 @@ class AdminController{
                     </head>
                     <body>
                         <p>Bonjour Mr FORTEROCHE</p>
-                        <p>Afin de réitialiser votre mot de passe, veuillez cliquer sur le lien suivant : <a href="?action=traitementForgetMdp"></a></p>
+                        <p>Afin de réitialiser votre mot de passe, veuillez cliquer sur le lien suivant : <a href="localhost/projet_4/public/?action=traitementForgetMdp"></a></p>
                     </body>
                 </html>';
                 $headers = 'Content-type: text/html; charset=\"ISO-8859-1\"' . "\r\n" .
@@ -130,7 +131,7 @@ class AdminController{
                 //Redirection
              
             }else{
-                header("Location: ?action=authentification&erreur_mail='true'");
+                header("Location: http://localhost/projet_4/public/?action=authentification&erreur_mail='true'");
             }
         }
         require('../app/view/forgetMdp.phtml');

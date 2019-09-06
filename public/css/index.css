@@ -1,0 +1,11 @@
+#content{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#content img{
+    width: 500px;
+    margin-left: -15%;
+    margin-top: -10%;
+    margin-bottom: -5%;
+}
