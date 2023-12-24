@@ -1,0 +1,2362 @@
+[05-Sep-2019 16:31:39 Europe/Berlin] coucou
+[05-Sep-2019 16:31:41 Europe/Berlin] coucou
+[05-Sep-2019 16:31:42 Europe/Berlin] coucou
+[05-Sep-2019 16:31:46 Europe/Berlin] coucou
+[05-Sep-2019 16:34:34 Europe/Berlin] coucou
+[05-Sep-2019 16:35:57 Europe/Berlin] coucou
+[05-Sep-2019 16:36:15 Europe/Berlin] coucou
+[05-Sep-2019 16:37:06 Europe/Berlin] coucou
+[05-Sep-2019 16:37:30 Europe/Berlin] coucou
+[05-Sep-2019 16:38:08 Europe/Berlin] coucou
+[05-Sep-2019 16:38:32 Europe/Berlin] coucou
+[05-Sep-2019 16:38:50 Europe/Berlin] coucou
+[05-Sep-2019 16:39:46 Europe/Berlin] coucou
+[05-Sep-2019 16:40:01 Europe/Berlin] coucou
+[05-Sep-2019 16:40:30 Europe/Berlin] coucou
+[05-Sep-2019 16:42:59 Europe/Berlin] coucou
+[05-Sep-2019 16:42:59 Europe/Berlin] Array
+(
+    [allow_url_fopen] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 4
+        )
+
+    [allow_url_include] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [arg_separator.input] => Array
+        (
+            [global_value] => &
+            [local_value] => &
+            [access] => 6
+        )
+
+    [arg_separator.output] => Array
+        (
+            [global_value] => &
+            [local_value] => &
+            [access] => 7
+        )
+
+    [assert.active] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [assert.bail] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [assert.callback] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [assert.exception] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [assert.quiet_eval] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [assert.warning] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [auto_append_file] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 6
+        )
+
+    [auto_detect_line_endings] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [auto_globals_jit] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 6
+        )
+
+    [auto_prepend_file] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 6
+        )
+
+    [bcmath.scale] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [browscap] => Array
+        (
+            [global_value] => /usr/lib/php7.3/browscap.ini
+            [local_value] => /usr/lib/php7.3/browscap.ini
+            [access] => 4
+        )
+
+    [cgi.check_shebang_line] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 4
+        )
+
+    [cgi.discard_path] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [cgi.fix_pathinfo] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 4
+        )
+
+    [cgi.force_redirect] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 4
+        )
+
+    [cgi.nph] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [cgi.redirect_status_env] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 4
+        )
+
+    [cgi.rfc2616_headers] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [curl.cainfo] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 4
+        )
+
+    [date.default_latitude] => Array
+        (
+            [global_value] => 31.7667
+            [local_value] => 31.7667
+            [access] => 7
+        )
+
+    [date.default_longitude] => Array
+        (
+            [global_value] => 35.2333
+            [local_value] => 35.2333
+            [access] => 7
+        )
+
+    [date.sunrise_zenith] => Array
+        (
+            [global_value] => 90.583333
+            [local_value] => 90.583333
+            [access] => 7
+        )
+
+    [date.sunset_zenith] => Array
+        (
+            [global_value] => 90.583333
+            [local_value] => 90.583333
+            [access] => 7
+        )
+
+    [date.timezone] => Array
+        (
+            [global_value] => Europe/Berlin
+            [local_value] => Europe/Berlin
+            [access] => 7
+        )
+
+    [dba.default_handler] => Array
+        (
+            [global_value] => flatfile
+            [local_value] => flatfile
+            [access] => 7
+        )
+
+    [default_charset] => Array
+        (
+            [global_value] => UTF-8
+            [local_value] => UTF-8
+            [access] => 7
+        )
+
+    [default_mimetype] => Array
+        (
+            [global_value] => text/html
+            [local_value] => text/html
+            [access] => 7
+        )
+
+    [default_socket_timeout] => Array
+        (
+            [global_value] => 60
+            [local_value] => 60
+            [access] => 7
+        )
+
+    [disable_classes] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 4
+        )
+
+    [disable_functions] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 4
+        )
+
+    [display_errors] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [display_startup_errors] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [doc_root] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 4
+        )
+
+    [docref_ext] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [docref_root] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [enable_dl] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 4
+        )
+
+    [enable_post_data_reading] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 6
+        )
+
+    [error_append_string] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [error_log] => Array
+        (
+            [global_value] => ../logs/errors.log
+            [local_value] => ../logs/errors.log
+            [access] => 7
+        )
+
+    [error_prepend_string] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [error_reporting] => Array
+        (
+            [global_value] => 22517
+            [local_value] => 32767
+            [access] => 7
+        )
+
+    [exif.decode_jis_intel] => Array
+        (
+            [global_value] => JIS
+            [local_value] => JIS
+            [access] => 7
+        )
+
+    [exif.decode_jis_motorola] => Array
+        (
+            [global_value] => JIS
+            [local_value] => JIS
+            [access] => 7
+        )
+
+    [exif.decode_unicode_intel] => Array
+        (
+            [global_value] => UCS-2LE
+            [local_value] => UCS-2LE
+            [access] => 7
+        )
+
+    [exif.decode_unicode_motorola] => Array
+        (
+            [global_value] => UCS-2BE
+            [local_value] => UCS-2BE
+            [access] => 7
+        )
+
+    [exif.encode_jis] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [exif.encode_unicode] => Array
+        (
+            [global_value] => ISO-8859-15
+            [local_value] => ISO-8859-15
+            [access] => 7
+        )
+
+    [expose_php] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 4
+        )
+
+    [extension_dir] => Array
+        (
+            [global_value] => /usr/lib/php7.3/extensions
+            [local_value] => /usr/lib/php7.3/extensions
+            [access] => 4
+        )
+
+    [fastcgi.logging] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 4
+        )
+
+    [file_uploads] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 4
+        )
+
+    [filter.default] => Array
+        (
+            [global_value] => unsafe_raw
+            [local_value] => unsafe_raw
+            [access] => 6
+        )
+
+    [filter.default_flags] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 6
+        )
+
+    [from] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [gd.jpeg_ignore_warning] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [hard_timeout] => Array
+        (
+            [global_value] => 2
+            [local_value] => 2
+            [access] => 4
+        )
+
+    [highlight.comment] => Array
+        (
+            [global_value] => #FF8000
+            [local_value] => #FF8000
+            [access] => 7
+        )
+
+    [highlight.default] => Array
+        (
+            [global_value] => #0000BB
+            [local_value] => #0000BB
+            [access] => 7
+        )
+
+    [highlight.html] => Array
+        (
+            [global_value] => #000000
+            [local_value] => #000000
+            [access] => 7
+        )
+
+    [highlight.keyword] => Array
+        (
+            [global_value] => #007700
+            [local_value] => #007700
+            [access] => 7
+        )
+
+    [highlight.string] => Array
+        (
+            [global_value] => #DD0000
+            [local_value] => #DD0000
+            [access] => 7
+        )
+
+    [html_errors] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [iconv.input_encoding] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [iconv.internal_encoding] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [iconv.output_encoding] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [ignore_repeated_errors] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [ignore_repeated_source] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [ignore_user_abort] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [imap.enable_insecure_rsh] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [implicit_flush] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [include_path] => Array
+        (
+            [global_value] => .:/usr/lib/php7.3
+            [local_value] => .:/usr/lib/php7.3
+            [access] => 7
+        )
+
+    [input_encoding] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [internal_encoding] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [intl.default_locale] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [intl.error_level] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [intl.use_exceptions] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [log_errors] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [log_errors_max_len] => Array
+        (
+            [global_value] => 1024
+            [local_value] => 1024
+            [access] => 7
+        )
+
+    [mail.add_x_header] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 6
+        )
+
+    [mail.force_extra_parameters] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 6
+        )
+
+    [mail.log] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 6
+        )
+
+    [max_execution_time] => Array
+        (
+            [global_value] => 50000
+            [local_value] => 50000
+            [access] => 7
+        )
+
+    [max_file_uploads] => Array
+        (
+            [global_value] => 20
+            [local_value] => 20
+            [access] => 6
+        )
+
+    [max_input_nesting_level] => Array
+        (
+            [global_value] => 64
+            [local_value] => 64
+            [access] => 6
+        )
+
+    [max_input_time] => Array
+        (
+            [global_value] => -1
+            [local_value] => -1
+            [access] => 6
+        )
+
+    [max_input_vars] => Array
+        (
+            [global_value] => 5000
+            [local_value] => 5000
+            [access] => 6
+        )
+
+    [mbstring.detect_order] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [mbstring.encoding_translation] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 6
+        )
+
+    [mbstring.func_overload] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [mbstring.http_input] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [mbstring.http_output] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [mbstring.http_output_conv_mimetypes] => Array
+        (
+            [global_value] => ^(text/|application/xhtml\+xml)
+            [local_value] => ^(text/|application/xhtml\+xml)
+            [access] => 7
+        )
+
+    [mbstring.internal_encoding] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [mbstring.language] => Array
+        (
+            [global_value] => neutral
+            [local_value] => neutral
+            [access] => 7
+        )
+
+    [mbstring.regex_stack_limit] => Array
+        (
+            [global_value] => 100000
+            [local_value] => 100000
+            [access] => 7
+        )
+
+    [mbstring.strict_detection] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [mbstring.substitute_character] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [memory_limit] => Array
+        (
+            [global_value] => -1
+            [local_value] => -1
+            [access] => 7
+        )
+
+    [mysqli.allow_local_infile] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [mysqli.allow_persistent] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 4
+        )
+
+    [mysqli.default_host] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [mysqli.default_port] => Array
+        (
+            [global_value] => 3306
+            [local_value] => 3306
+            [access] => 7
+        )
+
+    [mysqli.default_pw] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [mysqli.default_socket] => Array
+        (
+            [global_value] => /tmp/mysqld.sock
+            [local_value] => /tmp/mysqld.sock
+            [access] => 7
+        )
+
+    [mysqli.default_user] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [mysqli.max_links] => Array
+        (
+            [global_value] => -1
+            [local_value] => -1
+            [access] => 4
+        )
+
+    [mysqli.max_persistent] => Array
+        (
+            [global_value] => -1
+            [local_value] => -1
+            [access] => 4
+        )
+
+    [mysqli.reconnect] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [mysqli.rollback_on_cached_plink] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [mysqlnd.collect_memory_statistics] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [mysqlnd.collect_statistics] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [mysqlnd.debug] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 4
+        )
+
+    [mysqlnd.fetch_data_copy] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [mysqlnd.log_mask] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [mysqlnd.mempool_default_size] => Array
+        (
+            [global_value] => 16000
+            [local_value] => 16000
+            [access] => 7
+        )
+
+    [mysqlnd.net_cmd_buffer_size] => Array
+        (
+            [global_value] => 4096
+            [local_value] => 4096
+            [access] => 7
+        )
+
+    [mysqlnd.net_read_buffer_size] => Array
+        (
+            [global_value] => 32768
+            [local_value] => 32768
+            [access] => 7
+        )
+
+    [mysqlnd.net_read_timeout] => Array
+        (
+            [global_value] => 86400
+            [local_value] => 86400
+            [access] => 7
+        )
+
+    [mysqlnd.sha256_server_public_key] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 2
+        )
+
+    [mysqlnd.trace_alloc] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 4
+        )
+
+    [open_basedir] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [openssl.cafile] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 2
+        )
+
+    [openssl.capath] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 2
+        )
+
+    [output_buffering] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 6
+        )
+
+    [output_encoding] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [output_handler] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 6
+        )
+
+    [pcre.backtrack_limit] => Array
+        (
+            [global_value] => 1000000
+            [local_value] => 1000000
+            [access] => 7
+        )
+
+    [pcre.jit] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [pcre.recursion_limit] => Array
+        (
+            [global_value] => 100000
+            [local_value] => 100000
+            [access] => 7
+        )
+
+    [pdo_mysql.default_socket] => Array
+        (
+            [global_value] => /tmp/mysql.sock
+            [local_value] => /tmp/mysql.sock
+            [access] => 4
+        )
+
+    [phar.cache_list] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 4
+        )
+
+    [phar.readonly] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [phar.require_hash] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [post_max_size] => Array
+        (
+            [global_value] => 64M
+            [local_value] => 64M
+            [access] => 6
+        )
+
+    [precision] => Array
+        (
+            [global_value] => 14
+            [local_value] => 14
+            [access] => 7
+        )
+
+    [realpath_cache_size] => Array
+        (
+            [global_value] => 4096K
+            [local_value] => 4096K
+            [access] => 4
+        )
+
+    [realpath_cache_ttl] => Array
+        (
+            [global_value] => 120
+            [local_value] => 120
+            [access] => 4
+        )
+
+    [register_argc_argv] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 6
+        )
+
+    [report_memleaks] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [report_zend_debug] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [request_order] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 6
+        )
+
+    [sendmail_from] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [sendmail_path] => Array
+        (
+            [global_value] => /usr/sbin/sendmail -t -i
+            [local_value] => /usr/sbin/sendmail -t -i
+            [access] => 4
+        )
+
+    [serialize_precision] => Array
+        (
+            [global_value] => -1
+            [local_value] => -1
+            [access] => 7
+        )
+
+    [session.auto_start] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 2
+        )
+
+    [session.cache_expire] => Array
+        (
+            [global_value] => 180
+            [local_value] => 180
+            [access] => 7
+        )
+
+    [session.cache_limiter] => Array
+        (
+            [global_value] => nocache
+            [local_value] => nocache
+            [access] => 7
+        )
+
+    [session.cookie_domain] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [session.cookie_httponly] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [session.cookie_lifetime] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [session.cookie_path] => Array
+        (
+            [global_value] => /
+            [local_value] => /
+            [access] => 7
+        )
+
+    [session.cookie_samesite] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [session.cookie_secure] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [session.gc_divisor] => Array
+        (
+            [global_value] => 100
+            [local_value] => 100
+            [access] => 7
+        )
+
+    [session.gc_maxlifetime] => Array
+        (
+            [global_value] => 1440
+            [local_value] => 1440
+            [access] => 7
+        )
+
+    [session.gc_probability] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [session.lazy_write] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [session.name] => Array
+        (
+            [global_value] => PHPSESSID
+            [local_value] => PHPSESSID
+            [access] => 7
+        )
+
+    [session.referer_check] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [session.save_handler] => Array
+        (
+            [global_value] => files
+            [local_value] => files
+            [access] => 7
+        )
+
+    [session.save_path] => Array
+        (
+            [global_value] => /tmp/.priv
+            [local_value] => /tmp/.priv
+            [access] => 7
+        )
+
+    [session.serialize_handler] => Array
+        (
+            [global_value] => php
+            [local_value] => php
+            [access] => 7
+        )
+
+    [session.sid_bits_per_character] => Array
+        (
+            [global_value] => 4
+            [local_value] => 4
+            [access] => 7
+        )
+
+    [session.sid_length] => Array
+        (
+            [global_value] => 32
+            [local_value] => 32
+            [access] => 7
+        )
+
+    [session.trans_sid_hosts] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [session.trans_sid_tags] => Array
+        (
+            [global_value] => a=href,area=href,frame=src,form=
+            [local_value] => a=href,area=href,frame=src,form=
+            [access] => 7
+        )
+
+    [session.upload_progress.cleanup] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 2
+        )
+
+    [session.upload_progress.enabled] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 2
+        )
+
+    [session.upload_progress.freq] => Array
+        (
+            [global_value] => 1%
+            [local_value] => 1%
+            [access] => 2
+        )
+
+    [session.upload_progress.min_freq] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 2
+        )
+
+    [session.upload_progress.name] => Array
+        (
+            [global_value] => PHP_SESSION_UPLOAD_PROGRESS
+            [local_value] => PHP_SESSION_UPLOAD_PROGRESS
+            [access] => 2
+        )
+
+    [session.upload_progress.prefix] => Array
+        (
+            [global_value] => upload_progress_
+            [local_value] => upload_progress_
+            [access] => 2
+        )
+
+    [session.use_cookies] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [session.use_only_cookies] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [session.use_strict_mode] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [session.use_trans_sid] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [short_open_tag] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 6
+        )
+
+    [SMTP] => Array
+        (
+            [global_value] => localhost
+            [local_value] => localhost
+            [access] => 7
+        )
+
+    [smtp_port] => Array
+        (
+            [global_value] => 25
+            [local_value] => 25
+            [access] => 7
+        )
+
+    [soap.wsdl_cache] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [soap.wsdl_cache_dir] => Array
+        (
+            [global_value] => /tmp
+            [local_value] => /tmp
+            [access] => 7
+        )
+
+    [soap.wsdl_cache_enabled] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [soap.wsdl_cache_limit] => Array
+        (
+            [global_value] => 5
+            [local_value] => 5
+            [access] => 7
+        )
+
+    [soap.wsdl_cache_ttl] => Array
+        (
+            [global_value] => 86400
+            [local_value] => 86400
+            [access] => 7
+        )
+
+    [sqlite3.defensive] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 4
+        )
+
+    [sqlite3.extension_dir] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 4
+        )
+
+    [sys_temp_dir] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 4
+        )
+
+    [syslog.facility] => Array
+        (
+            [global_value] => LOG_USER
+            [local_value] => LOG_USER
+            [access] => 4
+        )
+
+    [syslog.filter] => Array
+        (
+            [global_value] => no-ctrl
+            [local_value] => no-ctrl
+            [access] => 7
+        )
+
+    [syslog.ident] => Array
+        (
+            [global_value] => php
+            [local_value] => php
+            [access] => 4
+        )
+
+    [tidy.clean_output] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 1
+        )
+
+    [tidy.default_config] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 4
+        )
+
+    [track_errors] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [unserialize_callback_func] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [upload_max_filesize] => Array
+        (
+            [global_value] => 64M
+            [local_value] => 64M
+            [access] => 6
+        )
+
+    [upload_tmp_dir] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 4
+        )
+
+    [url_rewriter.hosts] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [url_rewriter.tags] => Array
+        (
+            [global_value] => a=href,area=href,frame=src,form=fakeentry,fieldset=
+            [local_value] => a=href,area=href,frame=src,form=fakeentry,fieldset=
+            [access] => 7
+        )
+
+    [user_agent] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [user_dir] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 4
+        )
+
+    [user_ini.cache_ttl] => Array
+        (
+            [global_value] => 300
+            [local_value] => 300
+            [access] => 4
+        )
+
+    [user_ini.filename] => Array
+        (
+            [global_value] => .user.ini
+            [local_value] => .user.ini
+            [access] => 4
+        )
+
+    [variables_order] => Array
+        (
+            [global_value] => EGPCS
+            [local_value] => EGPCS
+            [access] => 6
+        )
+
+    [xmlrpc_error_number] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [xmlrpc_errors] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [zend.assertions] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [zend.detect_unicode] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [zend.enable_gc] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [zend.multibyte] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 2
+        )
+
+    [zend.script_encoding] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+    [zend.signal_check] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [zlib.output_compression] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [zlib.output_compression_level] => Array
+        (
+            [global_value] => -1
+            [local_value] => -1
+            [access] => 7
+        )
+
+    [zlib.output_handler] => Array
+        (
+            [global_value] => 
+            [local_value] => 
+            [access] => 7
+        )
+
+)
+
+[05-Sep-2019 16:50:25 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 16:50:25 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 16:55:04 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 11
+[05-Sep-2019 16:55:04 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 18
+[05-Sep-2019 16:55:05 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 27
+[05-Sep-2019 17:00:19 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 11
+[05-Sep-2019 17:00:19 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 18
+[05-Sep-2019 17:00:19 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 27
+[05-Sep-2019 21:10:32 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 11
+[05-Sep-2019 21:10:32 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 18
+[05-Sep-2019 21:10:32 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 27
+[05-Sep-2019 21:10:52 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 11
+[05-Sep-2019 21:10:52 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 18
+[05-Sep-2019 21:10:52 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 27
+[05-Sep-2019 21:10:54 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 11
+[05-Sep-2019 21:10:55 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 11
+[05-Sep-2019 21:10:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 11
+[05-Sep-2019 21:10:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 11
+[05-Sep-2019 21:10:58 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 11
+[05-Sep-2019 21:10:59 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 11
+[05-Sep-2019 21:11:10 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 11
+[05-Sep-2019 21:11:44 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:11:44 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:11:55 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:11:55 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:13:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:13:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:13:10 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:13:10 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:13:12 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:13:12 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:13:13 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:13:13 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:13:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:13:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:15:16 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:15:16 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:15:27 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:15:27 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:15:27 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:15:27 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:17:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:17:27 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:17:37 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:17:41 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:17:44 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:17:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:17:59 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:19:15 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:19:15 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:19:16 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:19:16 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:19:19 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:19:19 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:19:44 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:19:44 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:19:44 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:19:44 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:20:35 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:20:35 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:21:01 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:3) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:21:01 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:3) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:21:05 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:3) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:21:05 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:3) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:21:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:3) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:21:19 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:3) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:21:19 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:3) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:21:19 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:3) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:21:33 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:21:34 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:24:30 Europe/Berlin] PHP Notice:  ob_end_clean(): failed to delete buffer. No buffer to delete in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:24:30 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 18
+[05-Sep-2019 21:24:30 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 27
+[05-Sep-2019 21:24:52 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 19
+[05-Sep-2019 21:24:52 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 28
+[05-Sep-2019 21:25:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 19
+[05-Sep-2019 21:25:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 28
+[05-Sep-2019 21:25:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 19
+[05-Sep-2019 21:25:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 28
+[05-Sep-2019 21:25:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 19
+[05-Sep-2019 21:25:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 28
+[05-Sep-2019 21:25:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 19
+[05-Sep-2019 21:25:25 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 19
+[05-Sep-2019 21:25:25 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 28
+[05-Sep-2019 21:25:39 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 19
+[05-Sep-2019 21:25:39 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 28
+[05-Sep-2019 21:25:39 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 19
+[05-Sep-2019 21:25:39 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 28
+[05-Sep-2019 21:26:14 Europe/Berlin] PHP Notice:  ob_end_clean(): failed to delete buffer. No buffer to delete in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 18
+[05-Sep-2019 21:26:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 19
+[05-Sep-2019 21:26:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 28
+[05-Sep-2019 21:26:18 Europe/Berlin] PHP Notice:  ob_end_clean(): failed to delete buffer. No buffer to delete in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 18
+[05-Sep-2019 21:26:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 19
+[05-Sep-2019 21:26:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 28
+[05-Sep-2019 21:26:49 Europe/Berlin] PHP Warning:  require(/homepages/46/d744516565/htdocs/projet_4/app/model/AdminControllerModel.php): failed to open stream: No such file or directory in /homepages/46/d744516565/htdocs/projet_4/app/Autoloader.php on line 5
+[05-Sep-2019 21:26:49 Europe/Berlin] PHP Fatal error:  require(): Failed opening required '/homepages/46/d744516565/htdocs/projet_4/app/model/AdminControllerModel.php' (include_path='.:/usr/lib/php7.3') in /homepages/46/d744516565/htdocs/projet_4/app/Autoloader.php on line 5
+[05-Sep-2019 21:27:58 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:27:58 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:28:19 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:28:19 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:28:21 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:28:21 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:30:11 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:30:11 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:30:13 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:30:13 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:30:16 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:30:16 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:30:37 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:30:37 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:4) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:31:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:3) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:31:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:3) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:31:23 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:1) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:31:23 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:1) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:31:34 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:1) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:31:34 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:1) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:31:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:1) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:31:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:1) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:32:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:2) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:32:15 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:2) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:33:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:33:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:33:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:33:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:33:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:33:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:33:59 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:33:59 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:33:59 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:34:10 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:34:11 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:34:11 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:34:11 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:34:12 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:34:23 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:34:23 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:34:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:34:25 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:34:29 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:34:41 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:34:42 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:34:43 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:34:54 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:34:54 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:34:54 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:34:55 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:06 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:06 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:19 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:20 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:20 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:31 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:31 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:31 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:31 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:33 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:44 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:44 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:44 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:45 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:56 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:56 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:56 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:56 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:56 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:35:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:08 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:08 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:10 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:10 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:21 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:21 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:22 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:22 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:22 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:23 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:23 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:23 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:35 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:35 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:35 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:35 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:37 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:48 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:48 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:48 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:48 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:36:48 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:37:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:37:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:37:35 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:37:35 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:37:35 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:37:35 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:37:46 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:37:46 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:37:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:37:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:37:58 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:37:59 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:38:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:38:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:38:21 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:38:21 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:38:21 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:38:35 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:38:35 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:38:35 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:38:35 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:38:35 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:38:48 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:38:59 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:38:59 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:38:59 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:39:11 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:39:11 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:39:11 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:39:11 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:39:12 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:39:12 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:39:12 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:39:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:39:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:39:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:39:25 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:39:25 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:39:37 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:39:37 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:39:37 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:6) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:39:37 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:39:38 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:39:38 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:39:49 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:39:49 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:39:50 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:40:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:40:11 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:40:11 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:40:12 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:40:12 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:40:12 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:40:23 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:40:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:40:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:40:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:40:35 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:40:35 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:40:36 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:40:37 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:40:50 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:40:51 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:40:52 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:40:52 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:40:52 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:40:53 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:40:53 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:40:54 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:40:54 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:40:55 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:40:55 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:41:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:41:13 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:41:13 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:41:13 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:41:13 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:41:13 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:41:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:41:26 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:41:26 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:41:27 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:41:38 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:41:38 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:41:38 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:41:39 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:41:51 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:41:51 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:41:51 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:42:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:42:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:42:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:42:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:42:15 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:42:27 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:42:28 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:42:28 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:42:28 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:42:28 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:42:28 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:42:29 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:42:41 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:42:41 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:42:41 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:42:41 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:42:41 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:42:41 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:42:41 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:42:43 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:42:54 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:54 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:42:54 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:54 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:42:54 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:54 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:54 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:54 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:54 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:7) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:42:55 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:55 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:55 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:55 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 93
+[05-Sep-2019 21:42:55 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:56 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:56 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:56 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:58 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:58 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:58 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:58 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:58 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:59 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:59 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:59 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:59 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:42:59 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:01 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:01 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:01 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:01 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:01 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:02 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:02 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:02 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:02 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:02 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:04 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:04 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:04 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:04 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:04 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:05 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:05 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:05 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:05 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:05 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:06 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:06 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:06 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:06 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:06 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:08 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:08 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:08 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:08 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:08 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:10 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:10 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:43:10 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/public/index.php on line 68
+[05-Sep-2019 21:44:27 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:44:27 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:45:50 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:45:50 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:46:13 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 26
+[05-Sep-2019 21:47:22 Europe/Berlin] PHP Warning:  require(/homepages/46/d744516565/htdocs/projet_4/app/model/AdminControllerModel.php): failed to open stream: No such file or directory in /homepages/46/d744516565/htdocs/projet_4/app/Autoloader.php on line 5
+[05-Sep-2019 21:47:22 Europe/Berlin] PHP Fatal error:  require(): Failed opening required '/homepages/46/d744516565/htdocs/projet_4/app/model/AdminControllerModel.php' (include_path='.:/usr/lib/php7.3') in /homepages/46/d744516565/htdocs/projet_4/app/Autoloader.php on line 5
+[05-Sep-2019 21:47:26 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:47:26 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 25
+[05-Sep-2019 21:47:50 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 17
+[05-Sep-2019 21:47:50 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 25
+[05-Sep-2019 21:49:32 Europe/Berlin] PHP Warning:  require(/homepages/46/d744516565/htdocs/projet_4/app/model/AdminControllerModel.php): failed to open stream: No such file or directory in /homepages/46/d744516565/htdocs/projet_4/app/Autoloader.php on line 5
+[05-Sep-2019 21:49:32 Europe/Berlin] PHP Fatal error:  require(): Failed opening required '/homepages/46/d744516565/htdocs/projet_4/app/model/AdminControllerModel.php' (include_path='.:/usr/lib/php7.3') in /homepages/46/d744516565/htdocs/projet_4/app/Autoloader.php on line 5
+[05-Sep-2019 21:49:37 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 25
+[05-Sep-2019 21:49:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 25
+[05-Sep-2019 21:50:20 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 25
+[05-Sep-2019 22:16:40 Europe/Berlin] PHP Warning:  require(/homepages/46/d744516565/htdocs/projet_4/app/model/AdminControllerModel.php): failed to open stream: No such file or directory in /homepages/46/d744516565/htdocs/projet_4/app/Autoloader.php on line 5
+[05-Sep-2019 22:16:40 Europe/Berlin] PHP Fatal error:  require(): Failed opening required '/homepages/46/d744516565/htdocs/projet_4/app/model/AdminControllerModel.php' (include_path='.:/usr/lib/php7.3') in /homepages/46/d744516565/htdocs/projet_4/app/Autoloader.php on line 5
+[05-Sep-2019 22:16:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:16:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:16:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:01 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 25
+[05-Sep-2019 22:17:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Form::lazel() in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml:18
+Stack trace:
+#0 /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php(12): require()
+#1 /homepages/46/d744516565/htdocs/projet_4/public/index.php(78): AdminController->authentification()
+#2 {main}
+  thrown in /homepages/46/d744516565/htdocs/projet_4/app/view/authentification.phtml on line 18
+[05-Sep-2019 22:17:31 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:5) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 25
+[05-Sep-2019 22:20:29 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:2) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 25
+[05-Sep-2019 22:20:56 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:1) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 25
+[05-Sep-2019 22:21:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:2) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 25
+[05-Sep-2019 22:21:12 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:2) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 25
+[05-Sep-2019 22:23:52 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /homepages/46/d744516565/htdocs/projet_4/public/index.php:2) in /homepages/46/d744516565/htdocs/projet_4/app/controller/adminController.php on line 25

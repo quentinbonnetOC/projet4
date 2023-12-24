@@ -1,0 +1,49 @@
+h1
+{
+    text-align: center;
+}
+#myTab
+{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+section
+{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#add_chapter-tab, #home-tab, #signalement-tab
+{
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+.nav-link.active
+{
+    font-weight: bold;
+    margin-top: -15px;
+    margin-bottom: -1px;
+}
+button.btn > a
+{
+    color: white;
+}
+form.backoffice
+{
+    margin-top: 5%;
+}
+.buttonAccepter
+{
+    margin-right: 30px;
+}
+.btn.delete
+{
+    background: red;
+    border: red;
+}
+nav.backoffice
+{
+    max-width: unset;
+}
