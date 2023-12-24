@@ -1,32 +1,98 @@
-<h1>Billet simple pour l'Alaska</h1>
-<form action="" method="get">
-    <input type="hidden" name="action" value="signalement">
-    <input type="submit" value="Signalement">
-    </form>
+<?php if(isset($_GET['deleted'])){
+    ?><script>alert('Votre chapitre a bien été supprimé');</script><?php
+}elseif(isset($_GET['updated'])){?>
+<script>alert("La mise à jour de votre chapitre a été enregistré");</script>
 <?php
-while($donnees = $readArticle->fetch()){ ?>
-<div class="accordion" id="accordionExample">
-    <div class="card">
-        <div class="card-header" id="headingOne">
-            <h2 class="mb-0">
-                <button class="btn btn-link" type="button" data-toggle="collapse"
-                    data-target="#collapse<?php echo($donnees['id']);?>" aria-expanded="true"
-                    aria-controls="collapse<?php echo($donnees['id']);?>">
-                    Chapitre <?php echo($donnees['chapter']."&nbsp".$donnees['title']);?> créer le
-                    <?php echo($donnees['date']);?><form action="" method="POST">
-                        <input type="hidden" name="delete" value="<?php echo($donnees['id']);?>">
-                        <input type="submit" value="supp"> </form>
-                    <form action="" method="POST">
-                        <input type="hidden" name="update" value="<?php echo($donnees['id']);?>">
-                        <input type="submit" value="update"> </form>
-                </button> </h2>
-        </div>
-        <div id="collapse<?php echo($donnees['id']);?>" class="collapse" aria-labelledby="headingOne"
-            data-parent="#accordionExample">
-            <div class="card card-body">
-                <!--card-body--> contenu du chapitre <?php echo($donnees['chapter']);?>
+}elseif(isset($_GET['commentaire_refuse'])){?>
+<script>alert("Le commentaire a bien été refusé");</script>
+<?php
+}elseif(isset($_GET['commentaire_accept'])){?>
+<script>alert("Le commentaire a bien été accepté");</script>
+<?php
+}elseif(isset($_GET['erreur_mail'])){?>
+<script>alert("Erreur d'addresse email");</script>
+<?php
+}elseif(isset($_GET['confirm_delete'])){?>
+    <script>if(confirm("Etes vous sure de vouloir supprimer cet article")){
+        window.location.href="?action=admin&confirm_delete=true&id=<?php echo($_GET['id']);?>";
+    }</script><?php
+}elseif(isset($_GET['article_created'])){?>
+    <script>alert("Votre article a bien été ajouté")</script>
+<?php
+}
+?>
+<link rel="stylesheet" href="../css/backoffice.css">
+<nav class="backoffice">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link" id="add_chapter-tab" data-toggle="tab" href="#add_chapter" role="tab" aria-controls="add_chapter" aria-selected="false">Ajouter chapitre</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Chapitres</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="signalement-tab" data-toggle="tab" href="#signalement" role="tab" aria-controls="signalement" aria-selected="false">Signalements</a>
+        </li>
+    </ul>
+</nav>
+<section>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="accordion" id="accordionExample">
+                <?php
+                foreach ($donnees as $donnee) { ?>
+                        <div class="card">
+                            <div class="card-header" id="headingOne<?php echo($donnee['id']);?>">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                                        data-target="#collapse<?php echo($donnee['id']);?>" aria-expanded="true"
+                                        aria-controls="collapse<?php echo($donnee['id']);?>">
+                                        Chapitre <?php echo($donnee['chapter']."&nbsp".$donnee['title']);?> créer le
+                                        <?php echo(strftime('%d/%m/%Y', strtotime($donnee['date'])));?>
+                                        <button class="btn btn-primary delete"><a href="?action=admin&delete=true&id=<?php echo($donnee['id']);?>"><i class="fas fa-trash-alt"></i></a></button>
+                                        <button class="btn btn-primary"><a href="?action=admin&update=true&id=<?php echo($donnee['id']);?>"><i class="fas fa-edit"></i></a></button> 
+                                </h2>
+                            </div>
+                            <div id="collapse<?php echo($donnee['id']);?>" class="collapse" aria-labelledby="headingOne<?php echo($donnee['id']);?>"
+                                data-parent="#accordionExample">
+                                <div class="card card-body">
+                                    <!--card-body--><?php echo($donnee['contenu']);?>
+                                </div>
+                            </div>
+                        </div>
+                <?php }?>
             </div>
         </div>
+        <div class="tab-pane fade" id="signalement" role="tabpanel" aria-labelledby="signalement-tab">
+            <table id="myTable" class="display stripe cell-border hover">
+                <thead>
+					<tr>
+                    	<th class="dt-head-center">Commentaire</th>
+                    	<th class="dt-head-center">Motif</th>
+                    	<th class="dt-head-center">Accepter/Refuser</th>
+					</tr>
+                </thead>
+                <tbody>
+                    <?php foreach($signalements as $signalement){?>
+                        <tr>
+                            <td class="dt-body-center"><?php echo($signalement['commentaire']);?></td>
+                            <td class="dt-body-center"><?php echo($signalement['motif']);?></td>
+                            <td class="dt-body-center"><button class="buttonAccepter"><a href="?action=signalement&accepter=true&id=<?php echo($signalement['id']);?>"><i class="fas fa-check"></i></a></button><button><a href="?action=signalement&refuser=true&id=<?php echo($signalement['id']);?>&commentaire_id=<?php echo($signalement['commentaire_id']);?>"><i class="fas fa-times-circle"></i></a></button></td>
+                        </tr>
+                    <?php } ?>
+                </tbody>
+            </table>
+        </div>
+        <div class="tab-pane fade" id="add_chapter" role="tabpanel" aria-labelledby="add_chapter-tab">
+            <form action="#" method="POST" class="backofficeForm">
+                <label>Titre</label>
+                <?php echo $form->input("title", "text", "tile_art", "" ); ?>
+                <label>Chapitre</label>
+                <?php echo $form->input("chapter", "text", "chapter_art", "" ); ?>
+                <textarea id="textarea" name="contenu"></textarea> 
+                <?php echo $form->input('envoie', 'hidden', '', 'envoyer');
+                echo $form->submit(''); ?>
+            </form>
+        </div>
     </div>
-</div>
-<?php }?>
+</section>

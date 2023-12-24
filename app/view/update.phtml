@@ -1,11 +1,18 @@
-<form action="" method="POST">
-    <label>Chapitre</label>
-    <input type="text" name="chapter">
-    <label>Titre</label>
-    <input type="text" name="title">
-    <label for="contenu"></label>
-    <textarea name="contenu"></textarea>
-    <label>Date</label>
-    <input type="text" name="date">
-    <input type="hidden" name="envoyeur" value="<?php echo($_POST['update']);?>">
-    <input type="submit"> </form>
+<link rel="stylesheet" href="../css/update.css">
+<main>
+    <form action="#" method="POST" class="updateForm">
+        <div class="title">
+            <label for="chapter">Chapitre : </label>
+            <input type="text" name="chapter" value="<?php echo $chapter;?>">
+            <label for="title">Titre : </label>
+            <input type="text" name="title" value="<?php echo $title;?>">
+        </div>
+        <div class="contenu">
+            <label for="contenu"></label>
+            <textarea name="contenu" id="textarea"><?php echo $contenu;?></textarea>
+            <input type="hidden" name="envoyeur" value="<?php echo $_GET['id'];?>"><br>
+            <button class="btn btn-primary"><a href="?action=admin">Retour</a></button>
+            <input type="submit" value="Modifier">
+        </div>
+    </form>
+</main>

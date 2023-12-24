@@ -1,9 +1,29 @@
-<?php
-$form = new Form($_POST);
-?><form action="#" method='POST'><?php
-echo $form->input('idt', 'text', '', '');
-echo $form->input('mdp', 'password', '', '');
-echo $form->input('envoi', 'hidden', '', 'envoyer');
-echo $form->submit('');
+<?php if(isset($_GET['msg'])){?>
+    <script>alert('Veuillez vous authentifiez');</script><?php
+} 
+if(isset($_COOKIE['pseudo'])){
+    $value_pseudo = $_COOKIE['pseudo'];
+    $remember_check = 'checked';
+}else{
+    $value_pseudo = null;
+    $remember_check = '';
+}
 ?>
-</form>
+<link rel="stylesheet" href="/public/css/authentification.css">
+<main>
+    <div class="authentificationForm">
+        <h1>Connexion</h1>
+        <form action="#" method='POST'><?php
+            echo $form->label('Pseudo'). " : ";
+            echo $form->input('idt', 'text', '', $value_pseudo);?><br><?php
+            echo $form->label('Mot de passe'). " : ";
+            echo $form->input('mdp', 'password', '', '');?><br><?php
+            echo $form->checkbox('remember', '', 'true', $remember_check);
+            echo $form->label('Se souvenir de mon pseudo'). " ";
+            echo $form->input('envoi', 'hidden', '', 'envoyer');
+            echo $form->submit('');
+            ?>
+        </form>
+        <a href="?action=forgetMdp">Mot de passe oublié</a>
+    </div>
+</main>
